@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.phtoarea
+{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.phtoarea-main
+{
+    background-color: aliceblue;
+    height: 500px;
+    width: 1000px;
+    overflow: hidden;
+}
+.images
+{
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+    display: none;
+}
+.display
+{
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+    display:block;
+}
+.image-see
+{
+    margin-top: 30px;
+}
+.all-btn
+{
+    
+    border: 0px;
+    outline: 0px;
+    margin: 0px 2px 0px 2px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.backg
+{
+    background-color: aqua;
+}
+button:active
+{
+    background-color: aqua;
+}
